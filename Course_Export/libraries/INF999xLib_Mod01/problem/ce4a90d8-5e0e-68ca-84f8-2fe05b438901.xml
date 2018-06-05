@@ -1,0 +1,20 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>
+    </p>
+    <p>Which setting ensures users do not reuse the same password too often?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Complexity requirements</choice>
+      <choice correct="True">Enforce password history</choice>
+      <choice correct="False">Maximum password age</choice>
+      <choice correct="False">Minimum password age</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;Enforce password history&lt;/b&gt;. The Enforce password history setting determines the number of unique, new passwords that must be associated with a user account before an old password can be reused.   </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

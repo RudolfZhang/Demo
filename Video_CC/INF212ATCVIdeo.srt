@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:02,939
+Active Directory Domain Services is a
+
+2
+00:00:02,939 --> 00:00:06,600
+key component of Windows Server 2016 IT
+
+3
+00:00:06,600 --> 00:00:08,610
+administrators must control access to
+
+4
+00:00:08,610 --> 00:00:10,950
+resources by using secure identity
+
+5
+00:00:10,950 --> 00:00:13,290
+accounts and standardized organizational
+
+6
+00:00:13,290 --> 00:00:16,289
+policies in this course you will create
+
+7
+00:00:16,289 --> 00:00:18,420
+an administrator user group and computer
+
+8
+00:00:18,420 --> 00:00:20,460
+accounts to secure access to resources
+
+9
+00:00:20,460 --> 00:00:22,980
+and implement group policies to
+
+10
+00:00:22,980 --> 00:00:25,500
+centralize configuration management and
+
+11
+00:00:25,500 --> 00:00:28,289
+provide standard processes through videos
+
+12
+00:00:28,289 --> 00:00:30,570
+discussions practical exercises and
+
+13
+00:00:30,570 --> 00:00:32,460
+assessments you will learn how to
+
+14
+00:00:32,460 --> 00:00:34,559
+effectively implement active directory
+
+15
+00:00:34,559 --> 00:00:41,659
+domain services.
+

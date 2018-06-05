@@ -1,0 +1,30 @@
+<p>After resetting the account, join the computer to the domain.</p>
+<p><img src="/static/3.2.4.png" alt="Screenshot of the Join a Domain or Workgroup login page. The username, password, and domain information is displayed. " /></p>
+<p>To join a computer to an AD DS domain, three conditions must be met:</p>
+<ul>
+<li>You must have appropriate permissions on the computer object that allows you to join a physical computer with the same name to the domain.</li>
+<li>You must be a member of the local Administrators group on the computer. This allows you to change the computer’s domain or workgroup membership.</li>
+<li>You must have delegated rights to add computers to the domain or you must not have exceeded the maximum number of computer accounts that users, by default, can add to the domain. By default, users can add a maximum of 10 computers to the domain <sup>[1]</sup>.</li>
+</ul>
+<p><sup>[1] </sup>The <em>machine account quota</em> determines the maximum number of computer accounts you can add to the domain. You can modify the value of this attribute, MS-DS-MachineAccountQuota, by using the Active Directory Service Interfaces Editor (ADSI Edit) snap-in.</p>
+<table>
+<tbody>
+<tr>
+<td width="55" valign="top"><img src="/static/3.2.4-2.png"/></td>
+<td width="568">
+<p><a href="http://social.technet.microsoft.com/wiki/contents/articles/24644.detailed-concepts-secure-channel-explained.aspx">Detailed Concepts: Secure Channel Explained</a> - This wiki article covers what the secure channel is and how to troubleshoot it.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td width="78"><img src="/static/0.1.5.png"/>
+</td>
+<td width="534">
+<p>There is a practical exercise on <strong>Domain Join</strong>.</p>
+</td>
+</tr>
+</tbody>
+</table>

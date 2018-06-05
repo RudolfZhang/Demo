@@ -1,0 +1,16 @@
+<p>By default, the following user and groups have Full Control over GPO management:</p>
+<ul>
+<li>Domain Admins</li>
+<li>Enterprise Admins</li>
+<li>Group Policy Creator Owners</li>
+<li>Local System</li>
+</ul>
+<p>The Authenticated Users group has Read and Apply Group Policy permissions.</p>
+<p><strong>Creating GPOs</strong></p>
+<p>By default, only Domain Admins, Enterprise Admins, and Group Policy Creator Owners can create new GPOs. You can use two methods to grant a group or user this right:</p>
+<ul>
+<li>Add the user or group to the Group Policy Creator Owners group.</li>
+<li>Explicitly grant the group or user permission to create GPOs by using the GPMC.</li>
+</ul>
+<p><strong>Editing GPOs</strong></p>
+<p>To edit a GPO, the user must have both Read and Write access to the GPO. You can grant this permission by using the GPMC.</p>

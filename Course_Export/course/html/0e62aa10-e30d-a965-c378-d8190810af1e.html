@@ -1,0 +1,15 @@
+<p><strong>Computer settings</strong></p>
+<p>Computer configuration settings are applied at startup and then refreshed every 90 minutes, with a random offset between 0 and 30 minutes. This means that settings are refreshed every 90 to 120 minutes. This is the default interval, but it is configurable. Domain controllers are the exception, as their configuration settings are refreshed every five minutes.</p>
+<p><strong>User settings</strong></p>
+<p>User settings are applied at sign in and then refreshed every 90 minutes, with a random offset between 0 and 30 minutes. This means that settings are refreshed every 90 to 120 minutes. By default, Windows Server logon scripts run five minutes after sign-in. You can use Group Policy to change or remove this delay by modifying the Computer Configuration\Policies\Administrative Templates\System\Group Policy\Configure Logon Script Delay setting.</p>
+<table>
+<tbody>
+<tr>
+<td width="78" valign="top"><img src="/static/0.1.7.png"/>
+</td>
+<td width="552" valign="top">
+<p>A number of user settings require two sign-ins before the user sees the effect of the GPO. This is because multiple users signing in to the same computer use cached credentials to speed up sign-ins. This means that, although the policy settings are delivered to the computer, the user is signed in already. Therefore, the settings do not take effect until the next time the user signs in. The Folder Redirection setting is an example of a policy that requires two sign-ins.</p>
+</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,20 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Aziz has reported he is unable to sign in to the domain. The error message is, “The trust relationship between this workstation and the primary domain failed.” What is likely the problem?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Bad network connection</choice>
+      <choice correct="True">Broken secure channel</choice>
+      <choice correct="False">Computer does not have required security updates</choice>
+      <choice correct="False">Password policy violations</choice>
+    </choicegroup>
+    <p>
+    </p>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;Broken secure channel&lt;/b&gt;. This error message indicates the computer cannot establish a secure channel with a domain controller.   </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

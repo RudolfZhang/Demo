@@ -1,0 +1,17 @@
+<p><strong>There can be issues when different workstations are used to edit GPOs.</strong></p>
+<p><strong><img src="/static/4.4.3.png" alt="Visual representation of a Windows client using different GPO templates than the Domain Controller." /></strong></p>
+<p>If your organization has multiple administration workstations, there could be issues when editing GPOs. If you don't have a central store that contains the template files, then the workstation will use the files that are stored in the local PolicyDefinitions folder. For example, imagine that an administrator downloaded the Office 2016 administrative template files and then created a GPO to set some Office 2016 settings. After implementing the GPO, a second administrator decides to make a couple of updates. When that administrator edits the GPO on different workstation, they may not see the Office 2016 settings.</p>
+<p><strong>Use the central store to ensure consistency.</strong></p>
+<p><strong><img src="/static/4.4.3-2.png" alt="Visual representation of a Windows client and domain controller sharing GPO templates from the Central Store. " /></strong></p>
+<p>The central store provides a single point from which administration workstations can download the same template files when editing GPOs. The central store is detected automatically by Windows operating systems. The local workstation that the administrator uses always checks to see if a central store exists before loading the local template files in the Group Policy Management Editor window. When the local workstation detects a central store, it then downloads the template files from there. In this way, there is a consistent administration experience among multiple workstations.</p>
+<table>
+<tbody>
+<tr>
+<td width="78" valign="top"><img src="/static/0.1.7.png"/>
+</td>
+<td width="552" valign="top">
+<p>You must create and provision the central store manually. You will do this in the lab.</p>
+</td>
+</tr>
+</tbody>
+</table>

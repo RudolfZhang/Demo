@@ -1,0 +1,196 @@
+1
+00:00:00,000 --> 00:00:01,800
+This demonstration will look at a common
+
+2
+00:00:01,800 --> 00:00:04,620
+administrator task create user account
+
+3
+00:00:04,620 --> 00:00:06,420
+and will start in server manager under
+
+4
+00:00:06,420 --> 00:00:08,490
+the Tools menu with the active directory
+
+5
+00:00:08,490 --> 00:00:13,080
+administrative center in the ADAC just
+
+6
+00:00:13,080 --> 00:00:15,059
+right-click the domain of interest then
+
+7
+00:00:15,059 --> 00:00:18,270
+select new and user every user in your
+
+8
+00:00:18,270 --> 00:00:20,430
+domain must have a user account and you
+
+9
+00:00:20,430 --> 00:00:22,680
+should never let users share accounts
+
+10
+00:00:22,680 --> 00:00:25,289
+now in the create user page there is only two
+
+11
+00:00:25,289 --> 00:00:28,349
+pieces of information that are required
+
+12
+00:00:28,349 --> 00:00:31,380
+full name and login name the full name
+
+13
+00:00:31,380 --> 00:00:33,329
+is a combination of first name and last
+
+14
+00:00:33,329 --> 00:00:36,390
+name for the login information you want
+
+15
+00:00:36,390 --> 00:00:38,219
+to make sure if you have a large number
+
+16
+00:00:38,219 --> 00:00:40,770
+of users that it's easily recognizable
+
+17
+00:00:40,770 --> 00:00:43,649
+and it is unique and then every user who
+
+18
+00:00:43,649 --> 00:00:44,969
+logs in the first time will need a
+
+19
+00:00:44,969 --> 00:00:47,489
+password so you can provide a password
+
+20
+00:00:47,489 --> 00:00:50,070
+for the user on the right-hand side make
+
+21
+00:00:50,070 --> 00:00:52,620
+sure user must change password at next
+
+22
+00:00:52,620 --> 00:00:55,320
+login is selected and if this was a
+
+23
+00:00:55,320 --> 00:00:57,059
+temporary hire you can also specify
+
+24
+00:00:57,059 --> 00:00:59,250
+the hours they could login or the
+
+25
+00:00:59,250 --> 00:01:02,460
+computers they can log on to there's a
+
+26
+00:01:02,460 --> 00:01:04,379
+lot of other information about your user
+
+27
+00:01:04,379 --> 00:01:06,659
+you can provide on the organization tab
+
+28
+00:01:06,659 --> 00:01:08,880
+and the more information you provide the
+
+29
+00:01:08,880 --> 00:01:09,659
+better
+
+30
+00:01:09,659 --> 00:01:12,119
+there's the office that they work in
+
+31
+00:01:12,119 --> 00:01:16,380
+their email address their job title
+
+32
+00:01:16,380 --> 00:01:19,020
+the department that they work in there's
+
+33
+00:01:19,020 --> 00:01:21,479
+a lot of contact information and if you
+
+34
+00:01:21,479 --> 00:01:23,520
+have a large number of users that share
+
+35
+00:01:23,520 --> 00:01:25,680
+the same attributes you definitely want
+
+36
+00:01:25,680 --> 00:01:28,799
+to consider using a user template that
+
+37
+00:01:28,799 --> 00:01:32,159
+you can create each user from user
+
+38
+00:01:32,159 --> 00:01:33,630
+templates are covered in your course
+
+39
+00:01:33,630 --> 00:01:36,899
+materials now if you prefer you can use
+
+40
+00:01:36,899 --> 00:01:39,840
+the ADAC history to show you the
+
+41
+00:01:39,840 --> 00:01:42,720
+PowerShell commands the first one is
+
+42
+00:01:42,720 --> 00:01:45,270
+New-ADUser this is where you set all
+
+43
+00:01:45,270 --> 00:01:49,349
+the attributes for the user and then
+
+44
+00:01:49,349 --> 00:01:52,619
+you'll use Set-ADAccountPassword
+
+45
+00:01:52,619 --> 00:01:54,390
+to give the user that initial password
+
+46
+00:01:54,390 --> 00:01:57,929
+and the third command you need is
+
+47
+00:01:57,929 --> 00:02:01,409
+Enable-ADAccount so whether you use the a
+
+48
+00:02:01,409 --> 00:02:03,659
+deck or Powershell that's all you need
+
+49
+00:02:03,659 --> 00:02:06,560
+to create a user.
+

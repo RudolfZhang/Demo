@@ -1,0 +1,86 @@
+<p>Which of the following is used to determine if a GPO has been updated?<br />
+(x) Group Policy Container<br />
+( ) Group Policy Link<br />
+( ) Group Policy Preferences<br />
+( ) Group Policy Template<br />
+[explanation]<br />
+<b>Group Policy Container</b>. The Group Policy container provides version information for the Group Policy Template. The version information determines if a setting needs to be updated.<br />
+[explanation]</p>
+<h2>Dropdown</h2>
+<p>By default, a GPO setting is<br />
+[[ Disabled, (Not configured), Enabled, Not defined]]<br />
+[explanation]<br />
+<b>Not configured</b>. This means the GPO does not modify the existing configuration of the particular setting for the user or computer.<br />
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>Which of the following should be used to create a Desktop shortcut for users?<br />
+( ) Central store<br />
+( ) Group Policy Container<br />
+(x) Group Policy Preference<br />
+( ) Group Policy Template<br />
+[explanation]<br />
+<b>Group Policy Preference</b>. Group Policy Preferences includes a Windows Setting for Shortcuts that could be used to create a Desktop shortcut.<br />
+[explanation]</p>
+<h2>Checkbox</h2>
+<p>By default, which three of the following have Full Control over GPO management?<br />
+[ ] Authenticated Users<br />
+[x] Domain Admins<br />
+[x] Enterprise Admins<br />
+[ ] Group Policy Admins<br />
+[x] Local System<br />
+[explanation]<br />
+<b>Domain Admins</b>, Enterprise Admins, and Local System. These groups have full control over GPO management.<br />
+[explanation]</p>
+<h2>Dropdown</h2>
+<p>By default, how often are user Group Policy settings refreshed?<br />
+[[Every 5 minutes, Every hour, (Every 90 minutes), Once a day]]<br />
+[explanation]<br />
+<b>Every 90 minutes</b>. By default, user Group Policy settings are refreshed every 90 minutes. There is a 0 to 30 minute offset. Thus, the refresh will be every 90 minutes to 120 minutes.<br />
+[explanation]</p>
+<h2>Checkbox</h2>
+<p>Which two of the following can be used to manually refresh the Group Policy settings?<br />
+[x] gpupdate /force<br />
+[ ] gpupdate /refresh<br />
+[x] Invoke-GPUpdate<br />
+[ ] ntdsutil /refresh<br />
+[ ] Refresh-GPUpdate<br />
+[explanation]<br />
+<b>Gpupdate /force</b>, <b>Invoke-Gpupdate</b>. You can refresh Group Policy manually. Most Administrators use Gpupdate, /force to refresh and deliver any new Group Policy configurations. However, there is a Windows PowerShell Invoke GPUpdate cmdlet, which performs the same function.<br />
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>Which of the following should be implemented to ensure administrators on different workstations are editing the same GPO settings?<br />
+(x) Central Store<br />
+( ) Group Policy Container<br />
+( ) Group Policy Link<br />
+( ) Group Policy Preferences<br />
+( ) Group Policy Template<br />
+[explanation]<br />
+<b>Central Store</b>. The central store provides a single point from which administration workstations can download the same template files when editing GPOs.<br />
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>You have an Organization Unit with a GPO. The OU also has a Site GPO and a Domain GPO linked to it? Which GPO takes precedence?<br />
+( ) Domain GPO<br />
+(x) OU GPO<br />
+( ) Site GPO<br />
+( ) The last GPO that was created and applied.<br />
+[explanation]<br />
+<b>OU GPO</b> The GPO processing order is sometimes referred to by the acronym LSDOU (Local, Site, Domain, OU).<br />
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>Domain controllers group policy settings are refreshed every<br />
+(x) 5 minutes<br />
+( ) 30 minutes<br />
+( ) 60 minutes<br />
+( ) 30 – 60 minutes<br />
+[explanation]<br />
+<b>5 minutes</b> Domain controller group policy settings are refreshed every 5 minutes.<br />
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>Preferences for Windows Settings includes all of the following except<br />
+(x) Devices<br />
+( ) Drive Maps<br />
+( ) Folders<br />
+( ) Registry<br />
+[explanation]<br />
+<b>Devices</b> Devices is a Control Panel preference.<br />
+[explanation]</p>

@@ -1,0 +1,27 @@
+<p><a href="https://technet.microsoft.com/en-us/library/dn617202.aspx">Special identities</a>** are groups where membership is controlled by the operating system**</p>
+<ul>
+<li>You cannot view the groups in any list (for example, in Active Directory Users and Computers).</li>
+<li>You cannot view or modify the membership of these special identities.</li>
+<li>You cannot add special identities to other groups.</li>
+</ul>
+<p>Use special identities to provide access based on authentication or connection</p>
+<p>Special identities cannot be changed. You can, however, use these groups to assign rights and permissions. Here are the special identities.</p>
+<ul>
+<li><strong>Anonymous Logon</strong>. This identity represents connections to a computer and its resources that are made without supplying a <g>user name</g> and password.</li>
+<li><strong>Authenticated Users</strong>. This represents identities that are authenticated. This group does not include Guest, even if the Guest account has a password.</li>
+<li><strong>Everyone</strong>. This identity includes Authenticated Users and the Guest account.</li>
+<li><strong>Interactive</strong>. This represents users who access a resource while logged on locally to the computer that is hosting the resource, as opposed to accessing the resource over the network. When a user accesses any given resource on a computer to which the user is logged on locally, the user is added automatically to the Interactive group for that resource. Interactive also includes users who log on through a Remote Desktop connection.</li>
+<li><strong>Network</strong>. This represents users who access a resource over the network, as opposed to users who are logged on locally <g>at</g> the computer that is hosting the resource. When a user accesses any given resource over the network, the user is added automatically to the Network group for that resource.</li>
+<li><strong>Creator Owner</strong>. This represents the security principal that created an object.</li>
+</ul>
+<table>
+<tbody>
+<tr>
+<td width="78" valign="top"><img src="/static/0.1.7.png"/>
+</td>
+<td width="552" valign="top">
+<p>You can use special identities to provide access to resources based on the type of authentication or connection, rather than the user account. For example, you could create a folder on a system that allows users to view its contents when they are logged on locally to the system, but that does not allow the same users to view the contents from a mapped drive over the network.</p>
+</td>
+</tr>
+</tbody>
+</table>

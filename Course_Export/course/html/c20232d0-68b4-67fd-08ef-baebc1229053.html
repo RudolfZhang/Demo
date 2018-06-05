@@ -1,0 +1,40 @@
+<p>The main difference between distribution and security groups is whether permissions and access control can be assigned.</p>
+<table>
+<tbody>
+<tr>
+<td width="231" valign="top">
+</td>
+<td width="173" valign="top">
+<p><strong>Distribution Groups</strong></p>
+</td>
+<td width="203" valign="top">
+<p><strong>Security Groups</strong></p>
+</td>
+</tr>
+<tr>
+<td width="231" valign="top">
+<p><strong>Can permissions and access control be assigned?</strong></p>
+</td>
+<td width="173" valign="top">
+<p>No</p>
+</td>
+<td width="203" valign="top">
+<p>Yes</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Distribution groups are not security enabled and cannot be given permission to resources. Distribution groups are used mainly by email applications. Sending an email message to a distribution group sends the message to all group members. If you are creating a group solely for email distribution it should be this type of group.<strong>Distribution groups are primarily for email.</strong></p>
+<p><strong>Security groups control resources.</strong></p>
+<p><em>Security groups</em> are <g>security-enabled,</g> and are used to assign permissions and control access to various resources. You can use a security group for email distribution, but we recommend you keep distribution groups and security groups separate.</p>
+<table>
+<tbody>
+<tr>
+<td width="78" valign="top"><img src="/static/0.1.7.png"/>
+</td>
+<td width="552" valign="top">
+<p>Consider that when you add a user to a group, the user’s access token—which authenticates user processes—updates only when the user signs in. Therefore, if the user is currently signed in, the user must sign out and sign back in to update their access token with any changed group memberships.</p>
+</td>
+</tr>
+</tbody>
+</table>

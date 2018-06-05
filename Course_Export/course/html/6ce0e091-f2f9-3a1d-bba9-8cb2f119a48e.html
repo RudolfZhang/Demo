@@ -1,0 +1,108 @@
+<p>Group policy preferences are similar to group policy settings in that they apply configurations to the user or computer. However, there are several differences:</p>
+<ul>
+<li>Preferences are not enforced. However, you can configure preferences to reapply automatically.</li>
+<li>Preferences can use item-level targeting. Item-level targeting enables you to target individual preferences within a GPO to specific users or computers.</li>
+</ul>
+<table>
+<tbody>
+<tr>
+<td width="125" valign="top">
+<p><strong>Feature</strong></p>
+</td>
+<td width="212" valign="top">
+<p><strong>Group Policy Setting</strong></p>
+</td>
+<td width="311" valign="top">
+<p><strong>Group Policy Preference</strong></p>
+</td>
+</tr>
+<tr>
+<td width="125" valign="top">
+<p><strong>Deletion</strong></p>
+</td>
+<td width="212" valign="top">
+<p>Settings removed</p>
+</td>
+<td width="311" valign="top">
+<p>By default, preferences remain even after the GPO is removed</p>
+</td>
+</tr>
+<tr>
+<td width="125" valign="top">
+<p><strong>Enforcement</strong></p>
+</td>
+<td width="212" valign="top">
+<p>Strictly enforced by writing the settings to an area of the registry that standard users cannot modify</p>
+</td>
+<td width="311" valign="top">
+<p>Are written to normal location in the registry that the application or operating system features uses to store the setting</p>
+</td>
+</tr>
+<tr>
+<td width="125" valign="top">
+<p><strong>Local Machine</strong></p>
+</td>
+<td width="212" valign="top">
+<p>GPOs are <g>available</g></p>
+</td>
+<td width="311" valign="top">
+<p>Not available</p>
+</td>
+</tr>
+<tr>
+<td width="125" valign="top">
+<p><strong>Management</strong></p>
+</td>
+<td width="212" valign="top">
+<p>GPMC</p>
+</td>
+<td width="311" valign="top">
+<p>GPMC</p>
+</td>
+</tr>
+<tr>
+<td width="125" valign="top">
+<p><strong><g>Refresh</g></strong></p>
+</td>
+<td width="212" valign="top">
+<p><g>Refresh</g> policy settings at a regular interval</p>
+</td>
+<td width="311" valign="top">
+<p>By default, uses the same settings as Group Policy. Can be applied only once at startup or during sign in, and can be refreshed at intervals.</p>
+</td>
+</tr>
+<tr>
+<td width="125" valign="top">
+<p><strong>Targeting</strong></p>
+</td>
+<td width="212" valign="top">
+<p>Can be targeted to specific users and computers</p>
+</td>
+<td width="311" valign="top">
+<p>Can be targeted to specific users and computers, item-level targeting available</p>
+</td>
+</tr>
+<tr>
+<td width="125" valign="top">
+<p><strong>User Interface</strong></p>
+</td>
+<td width="212" valign="top">
+<p>Typically disables the user interface for settings that Group Policy is managing</p>
+</td>
+<td width="311" valign="top">
+<p>Does not cause the application or operating system feature to disable the user interface for settings</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td width="78" valign="top"><img src="/static/0.1.7.png"/>
+</td>
+<td width="552" valign="top">
+<p><strong>Registry editing.</strong> A Group Policy setting effectively disables the user interface for a given setting. However, a Group Policy preference does not disable the ability for a user to change the setting. So, if the user can edit the registry, the user can alter the setting.</p>
+</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,421 @@
+1
+00:00:00,003 --> 00:00:01,001
+- [Voiceover] When it comes time
+
+2
+00:00:01,001 --> 00:00:02,006
+to pick out and purchase a computer,
+
+3
+00:00:02,006 --> 00:00:04,003
+one of the first decisions
+you'll have to make
+
+4
+00:00:04,003 --> 00:00:06,004
+is whether you want to
+get a desktop computer,
+
+5
+00:00:06,004 --> 00:00:09,003
+a laptop computer or
+even a tablet computer.
+
+6
+00:00:09,003 --> 00:00:11,006
+Here's an example of a laptop computer.
+
+7
+00:00:11,006 --> 00:00:14,008
+Laptop computers are also often
+called notebook computers.
+
+8
+00:00:14,008 --> 00:00:17,000
+These computers are
+designed for portability,
+
+9
+00:00:17,000 --> 00:00:19,004
+often weighing less
+than four or five pounds
+
+10
+00:00:19,004 --> 00:00:20,008
+and they have the monitor, keyboard
+
+11
+00:00:20,008 --> 00:00:22,007
+and mouse pointing device built in
+
+12
+00:00:22,007 --> 00:00:24,009
+so you usually don't have
+to plug in other accessories
+
+13
+00:00:24,009 --> 00:00:26,002
+to use the computer.
+
+14
+00:00:26,002 --> 00:00:28,009
+And these are examples
+of desktop computers.
+
+15
+00:00:28,009 --> 00:00:30,002
+Now, the term desktop can mean
+
+16
+00:00:30,002 --> 00:00:32,003
+different things when you're
+talking about computers
+
+17
+00:00:32,003 --> 00:00:34,007
+but in this context, desktop refers to
+
+18
+00:00:34,007 --> 00:00:37,000
+all computers that
+either sit on or next to
+
+19
+00:00:37,000 --> 00:00:38,008
+your desk or work station.
+
+20
+00:00:38,008 --> 00:00:39,009
+The computer itself does not have a
+
+21
+00:00:39,009 --> 00:00:41,008
+built-in monitor, keyboard or mouse
+
+22
+00:00:41,008 --> 00:00:43,007
+but the keyboard and
+mouse are usually included
+
+23
+00:00:43,007 --> 00:00:45,005
+in the same box the computer ships in
+
+24
+00:00:45,005 --> 00:00:47,000
+and the have to be
+plugged in to the computer
+
+25
+00:00:47,000 --> 00:00:48,002
+when you set it up.
+
+26
+00:00:48,002 --> 00:00:49,007
+And desktop computers are not designed
+
+27
+00:00:49,007 --> 00:00:52,001
+to be portable or carried around a lot.
+
+28
+00:00:52,001 --> 00:00:55,000
+But how do you decide which
+type of computer to get?
+
+29
+00:00:55,000 --> 00:00:56,006
+Well for the most part,
+you should only select
+
+30
+00:00:56,006 --> 00:00:59,009
+a laptop if you genuinely
+need the portability.
+
+31
+00:00:59,009 --> 00:01:02,006
+Laptops today are nearly
+if not just as powerful
+
+32
+00:01:02,006 --> 00:01:04,002
+as their deskptop counterparts,
+
+33
+00:01:04,002 --> 00:01:06,007
+but you'll usually be
+spending more money on laptops
+
+34
+00:01:06,007 --> 00:01:08,000
+for the same amount of power
+
+35
+00:01:08,000 --> 00:01:09,008
+you can get from a desktop computer.
+
+36
+00:01:09,008 --> 00:01:11,004
+Desktop computers also have the advantage
+
+37
+00:01:11,004 --> 00:01:12,009
+of being more upgradable.
+
+38
+00:01:12,009 --> 00:01:16,000
+Yes, laptops have USB ports
+for adding external hard drives
+
+39
+00:01:16,000 --> 00:01:18,000
+but desktop computers usually have
+
+40
+00:01:18,000 --> 00:01:20,003
+more available USB
+ports and they also have
+
+41
+00:01:20,003 --> 00:01:22,001
+slots for expansion cards or for
+
+42
+00:01:22,001 --> 00:01:25,002
+additional internal hard
+drives or optical drives.
+
+43
+00:01:25,002 --> 00:01:27,007
+Desktops are usually easier
+to upgrade yourself too.
+
+44
+00:01:27,007 --> 00:01:29,006
+Also if your computer is
+mainly going to be used
+
+45
+00:01:29,006 --> 00:01:32,000
+in your home or office and you
+don't need the portability,
+
+46
+00:01:32,000 --> 00:01:34,000
+you can treat yourself
+to a much larger monitor
+
+47
+00:01:34,000 --> 00:01:35,008
+than you would get on the laptop.
+
+48
+00:01:35,008 --> 00:01:39,002
+Laptop displays generally
+top out around 17 inches
+
+49
+00:01:39,002 --> 00:01:40,008
+but these days you can purchase montitors
+
+50
+00:01:40,008 --> 00:01:44,007
+at 23, 27 or even 30
+inch and larger sizes.
+
+51
+00:01:44,007 --> 00:01:46,004
+Of course many laptops offer the ability
+
+52
+00:01:46,004 --> 00:01:48,006
+to connect to additional
+monitors these days too,
+
+53
+00:01:48,006 --> 00:01:50,003
+but you're still going to be paying more,
+
+54
+00:01:50,003 --> 00:01:52,002
+so unless you really need the portability,
+
+55
+00:01:52,002 --> 00:01:54,002
+you'll want to stick with the desktop model.
+
+56
+00:01:54,002 --> 00:01:55,009
+Now you've probably heard
+of a third type of computer
+
+57
+00:01:55,009 --> 00:01:57,004
+called a tablet computer.
+
+58
+00:01:57,004 --> 00:01:59,006
+Devices like Apple iPads
+and Android tablets
+
+59
+00:01:59,006 --> 00:02:01,004
+fall under this category.
+
+60
+00:02:01,004 --> 00:02:02,009
+They come with touch screen displays
+
+61
+00:02:02,009 --> 00:02:04,005
+and you operate them
+by touching and tapping
+
+62
+00:02:04,005 --> 00:02:06,001
+the screen with your fingers.
+
+63
+00:02:06,001 --> 00:02:08,001
+However, I wouldn't recommend the iPad
+
+64
+00:02:08,001 --> 00:02:10,004
+or an Android device
+as your only computer.
+
+65
+00:02:10,004 --> 00:02:12,001
+They're not nearly as powerful or capable
+
+66
+00:02:12,001 --> 00:02:13,008
+of doing professional work, and they run
+
+67
+00:02:13,008 --> 00:02:15,004
+a different operating system than is found
+
+68
+00:02:15,004 --> 00:02:17,004
+on desktop and notebook computers.
+
+69
+00:02:17,004 --> 00:02:19,001
+However, if you're interested in a tablet
+
+70
+00:02:19,001 --> 00:02:20,008
+but also want the power and capability
+
+71
+00:02:20,008 --> 00:02:22,006
+of a desktop operating system,
+
+72
+00:02:22,006 --> 00:02:24,003
+another category of computer to consider
+
+73
+00:02:24,003 --> 00:02:25,009
+is the hybrid computer.
+
+74
+00:02:25,009 --> 00:02:27,002
+This includes computers like the
+
+75
+00:02:27,002 --> 00:02:28,009
+Microsoft Surface Pro 4,
+
+76
+00:02:28,009 --> 00:02:30,003
+which is a touch screen tablet
+
+77
+00:02:30,003 --> 00:02:31,004
+that runs the same version of
+
+78
+00:02:31,004 --> 00:02:33,001
+the Windows operating system found on
+
+79
+00:02:33,001 --> 00:02:34,008
+desktop and notebook computers.
+
+80
+00:02:34,008 --> 00:02:36,007
+So you can operate it
+with just your fingers,
+
+81
+00:02:36,007 --> 00:02:38,003
+or you can attach a keyboard to it
+
+82
+00:02:38,003 --> 00:02:40,000
+to make it more like a notebook computer.
+
+83
+00:02:40,000 --> 00:02:41,004
+But just like with a notebook computer
+
+84
+00:02:41,004 --> 00:02:42,007
+if you don't need the portability,
+
+85
+00:02:42,007 --> 00:02:43,007
+you'll probably want to consider
+
+86
+00:02:43,007 --> 00:02:45,001
+getting a desktop computer.
+
+87
+00:02:45,001 --> 00:02:46,004
+And again, while tablet computers are
+
+88
+00:02:46,004 --> 00:02:48,002
+great devices to have, and you can do
+
+89
+00:02:48,002 --> 00:02:49,005
+all kinds of work on them from
+
+90
+00:02:49,005 --> 00:02:51,005
+word processing to video editing,
+
+91
+00:02:51,005 --> 00:02:53,003
+at this point for most people
+
+92
+00:02:53,003 --> 00:02:54,002
+I don't think they're suitable
+
+93
+00:02:54,002 --> 00:02:56,006
+to be the only computer in
+your office or household
+
+94
+00:02:56,006 --> 00:02:57,009
+and throughout the rest of the course,
+
+95
+00:02:57,009 --> 00:02:59,000
+I'll be working on the assumption
+
+96
+00:02:59,000 --> 00:03:00,004
+that you either have a desktop
+
+97
+00:03:00,004 --> 00:03:02,004
+or a notebook computer.
+

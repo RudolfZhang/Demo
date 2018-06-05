@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>What of the following AD DS attributes represents a user’s logon name?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">cn</choice>
+      <choice correct="False">DisplayName</choice>
+      <choice correct="False">Name</choice>
+      <choice correct="True">sAMAccountName</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;sAMAccountName&lt;/b&gt;. When users sign in, they use their sAMAccountName. In some cases, the value of sAMAccountName can match the value of other attributes.  </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

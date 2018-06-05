@@ -1,0 +1,16 @@
+<p><strong>Be sure to properly</strong> <a href="https://technet.microsoft.com/en-us/library/cc772166.aspx">scope your GPOs</a>.</p>
+<p>To apply the settings of a GPO to the users and computers of a domain, site, or OU, you need to add a link to that GPO. A <em>GPO link</em> is the logical connection between the policy and the object. A single GPO can link to multiple objects.</p>
+<p><img src="/static/4.2.1.png" alt="Visual representation of apply GPOs at the different levels of your organization. For example, Domains, Sites, and OUs. " /></p>
+<p><strong>Links are inherited and can be modified.</strong></p>
+<p>By default, once you link a GPO, the policy is applied to all of the child objects under that parent object. You can modify this behavior. You can also disable links which removes the configuration setting. And, you can delete links, which does not delete the actual GPO, only the logical connection to the container.</p>
+<table>
+<tbody>
+<tr>
+<td width="78" valign="top"><img src="/static/0.1.7.png"/>
+</td>
+<td width="552" valign="top">
+<p>You cannot link GPOs directly to users, groups, or computers. Furthermore, you cannot link GPOs to the system containers in AD DS, including Builtin, Computers, Users, or Managed Service Accounts. The AD DS system containers receive Group Policy settings from GPOs that are linked to the domain level only. Because of this, many organizations opt to store their user and computer objects in OUs, not system containers.</p>
+</td>
+</tr>
+</tbody>
+</table>

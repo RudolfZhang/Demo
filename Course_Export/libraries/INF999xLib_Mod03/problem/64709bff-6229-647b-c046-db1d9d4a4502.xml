@@ -1,0 +1,19 @@
+<problem display_name="Checkbox" max_attempts="2" showanswer="never" weight="1.0">
+  <choiceresponse>
+    <p>Which of the following three things can cause a broken secure channel?</p>
+    <checkboxgroup>
+      <choice correct="True">The computer cannot authenticate because the password is out of sync</choice>
+      <choice correct="True">The computer has been inactive for an extended period</choice>
+      <choice correct="False">There is a DNS resolution problem</choice>
+      <choice correct="False">There is a network connection problem</choice>
+      <choice correct="True">The operating system was reinstalled</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>The operating system was reinstalled, The computer has not been active for an extended period of time, The computer cannot authenticate because the password is out of sync.  Computer accounts and the secure relationships between computers and their domain are robust. Nevertheless, these scenarios can cause a broken channel.   </p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

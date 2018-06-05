@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>You are setting up a new branch office with 25 user accounts. Much of the user account information is the same, so you have created a user template. When you run the New-ADUser command which parameter should you use to pass the template?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">-Instance</choice>
+      <choice correct="False">-Template</choice>
+      <choice correct="False">-Path</choice>
+      <choice correct="False">-Settings</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;-Instance&lt;/b&gt;. The Instance parameter can be used to create a new user from a template.   </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

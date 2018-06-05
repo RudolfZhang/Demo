@@ -1,0 +1,19 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Which PowerShell command can be used to create a new computer account?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Add-ADComputer</choice>
+      <choice correct="False">Enable-ADComputer</choice>
+      <choice correct="True">New-ADComputer</choice>
+      <choice correct="False">New-ADObject</choice>
+      <choice correct="False">Set-ADComputer</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;New-ADComputer&lt;/b&gt;. The New-ADComputer command can be used to create a new group.	</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

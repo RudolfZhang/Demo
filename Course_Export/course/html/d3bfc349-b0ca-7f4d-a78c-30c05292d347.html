@@ -1,0 +1,8 @@
+<p>When developing your Active Directory group naming strategy, use a universal naming convention to ensure that people within your organization can identify groups easily. A best practice is to use a naming convention that identifies the type of group and its purpose. Consider this example.</p>
+<p><img src="/static/2.2.1.png" alt="Visual representation of using a prefix, resource identifier, suffix, and delimiter in a group name. " /></p>
+<ul>
+<li><strong>Prefix.</strong> The prefix identifies the management purpose of the group. In the example, ACL identifies that the group appears in the Access Control List of shared resources.</li>
+<li><strong>Resource identifier.</strong> This uniquely identifies the resource that the group is managing and to which it has access. In the example, the resource identifier is SalesFolders*.*</li>
+<li><strong>Suffix.</strong> The suffix further defines the access rights that the group membership is granted. For resource access management groups, the suffix defines the level of access that group members have. In this example, the suffix is Read, indicating that the group has Read permissions*.*</li>
+<li><strong>Delimiter.</strong> This should be a consistent marker, such as an underscore (_), which separates the prefix, identifier, and suffix. Do not use the delimiter elsewhere in the name. Use it only as a delimiter between those parameters in your naming strategy. Using a standard delimiter makes it easy to facilitate auditing and reporting. You can create scripts that use the delimiter to deconstruct group names.</li>
+</ul>

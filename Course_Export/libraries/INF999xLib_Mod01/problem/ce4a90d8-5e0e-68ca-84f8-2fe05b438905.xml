@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Your company has experienced several accounts being locked out. You suspect that a denial of service (DoS) attack is responsible.  Which of the following settings should you use to temporarily halt the attack?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Set the account lockout duration to 0.</choice>
+      <choice correct="True">Set the account lockout threshold to 0.</choice>
+      <choice correct="False">Set the account lockout duration to 999.</choice>
+      <choice correct="False">Set the account lockout threshold to 999.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;Set the account lockout threshold to 0&lt;/b&gt;. Setting the account lockout threshold to 0 will prevent accounts from being locked out which temporarily halts the attack.  </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

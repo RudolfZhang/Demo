@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Which of the following is not a benefit of pre-staging a computer account?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Enforces delegated control</choice>
+      <choice correct="False">Enforces the group policy settings</choice>
+      <choice correct="False">Enforces the OU structure</choice>
+      <choice correct="True">Ensures there is not a broken channel</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt; Ensures there is not a broken channel &lt;/b&gt;. Pre-staging a computer account will not prevent a broken channel.    </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Your organization’s administrators need to use more stringent passwords. Which of the following should you implement?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Complexity requirements</choice>
+      <choice correct="True">Fine-grained password policies</choice>
+      <choice correct="False">Password permissions</choice>
+      <choice correct="False">User profile redirection</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;Fine-grained password policies&lt;/b&gt;. You can use fine-grained password policies to specify multiple password policies, and to apply different password restrictions and account lockout policies to different sets of users in a single domain. For example, administrators may have different password requirements that are stricter than the policies for a user.   </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

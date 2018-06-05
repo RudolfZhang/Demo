@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>You are on the domain controller and creating a file for offline domain join. You are using the djoin.exe command. Which parameter will create the computer account in AD DS?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">/localos</choice>
+      <choice correct="True">/provision</choice>
+      <choice correct="False">/requestodj</choice>
+      <choice correct="False">/windowspath</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;provision&lt;/b&gt;. The provision parameter will create and configure the computer account for the computer that will be joining the domain.   </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,88 @@
+<p>Which PowerShell command can be used to create a new group?<br />
+( ) Add-ADGroup<br />
+( ) Enable-ADGroup<br />
+(x) New-ADGroup<br />
+( ) Set-ADGroup<br />
+[explanation]<br />
+<b>New-ADGroup</b>. The New-ADGroup command can be used to create a new group.
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>You are creating a group to use for email communications. Which type of group should you select?	
+(x) Distribution group	
+( ) Security group	
+( ) Either of the above, it doesn’t matter	
+[explanation]	
+<b>Distribution group</b>. As a best practice, you should use a distribution group if the purpose of the group is solely for email distribution.	
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>Which of the following group scopes can include any user in the forest with permissions on any object in the forest?<br />
+( ) Domain-local group scope<br />
+( ) Global group scope	
+( ) Local group scope	
+(x) Universal group scope	
+[explanation]	
+<b>Universal group scope</b>. Universal group are used primarily in multi-domain networks because they combine the characteristics of both domain-local groups and global groups. Properties of universal groups are propagated to the global catalog, and are made available across the enterprise network on all domain controllers that host the global catalog role. Universal groups can include any user in the forest and give permissions to any object in the forest.		
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>Administrators, Account Operators, and Backup Operators are which type of group scope?<br />
+(x) Domain-local group scope	
+( ) Global group scope	
+( ) Local group scope<br />
+( ) Universal group scope<br />
+[explanation]<br />
+<b>Domain-local group scope</b>. Use domain-local groups to manage access to resources or to assign management responsibilities (rights) within the domain. Domain-local groups can include any user in the forest but the group’s scope is localized to the domain in which the groups reside.<br />
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>You need to create a folder that allows users to view its contents when they are logged on locally to the system, but that does not allow the same users to view the contents from a mapped drive over the network.  Which special identity should you use?<br />
+( ) Authenticated users<br />
+( ) Creator owner<br />
+(x) Interactive<br />
+( ) Network users<br />
+[explanation]<br />
+<b>Interactive</b>. The Interactive group represents users who access a resource while logged on locally to the computer that is hosting the resource, as opposed to accessing the resource over the network.<br />
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>You are nesting groups to make it easier to manage resources. You have identified and created user and computer accounts. What is the next step?<br />
+( ) Add the identities to a domain-local group<br />
+(x) Add the identities to a global group<br />
+( ) Add the identities to a universal group<br />
+( ) Assign resources to the identities<br />
+[explanation]<br />
+<b>Add the identities to a global group</b>. Group nesting follows the IGDLA principle. After Identities are created, they should be assigned to global groups.<br />
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>Which of the following is the primary benefit of using nested groups?<br />
+( ) You can reduce the total number of groups.<br />
+(x) You can reduce the total number of permissions assignments.<br />
+( ) You can increase the performance of user sign ins.<br />
+( ) You can increase the performance of Group Policy processing.<br />
+[explanation]<br />
+<b>You can reduce the total number of permissions assignments</b>. When you nest groups, you can end up with a single group that you use for assigning permissions. This helps reduce the number of permissions assignments required.
+[explanation]</p>
+<h2>Checkboxes</h2>
+<p>You have two domains in your forest. You want to add User1 (Domain1) to Group2 (Domain2). Which two types of groups can you use?<br />
+[ ] Distribution group<br />
+[x] Domain local group<br />
+[ ] Global group<br />
+[x] Universal group<br />
+[explanation]<br />
+<b>Domain local group</b> and <b>Universal group</b>. Only domain local and universal groups can have members from other domains.<br />
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>Which PowerShell cmdlet can you use to add a user to a group?<br />
+( ) Add-ADGroup<br />
+(x) Add-ADGroupMember<br />
+( ) Set-ADGroup<br />
+( ) Set-ADGroupMember<br />
+[explanation]<br />
+<b>Add-ADGroupMember</b>. The Add-ADGroupMember cmdlet is used to add users to groups.<br />
+[explanation]</p>
+<h2>Multiple Choice</h2>
+<p>Which acronym is used to describe the group nesting strategy?<br />
+( ) DIGLA<br />
+( ) DLGIA<br />
+( ) IDGLA<br />
+(x) IGDLA<br />
+[explanation]<br />
+<b>IGDLA</b>. Identities, Global groups, Domain local groups, Assignments<br />
+[explanation]</p>

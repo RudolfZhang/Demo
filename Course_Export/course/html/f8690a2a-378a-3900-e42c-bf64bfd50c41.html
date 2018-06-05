@@ -1,0 +1,19 @@
+<p>Most organizations create at least two OUs for computer objects—one for servers (other than domain controllers), and one for clients. You may want to further divide your server and client OUs into additional OUs. This will allow you to delegate administration and link GPOs at a more granular level.</p>
+<p><strong>Organize your servers.</strong></p>
+<p>For example, under a Server <g>OU</g> you might create an OU for File and Print Servers, an OU for Database Servers, or any number of OUs that categorize the server types in your organization. This allows you delegate management of database servers to the database team or link a GPO for email servers to an OU that only contains email servers.</p>
+<p><img src="/static/3.1.2.png" alt="Visual representation of a Servers OU containing folders for Print Servers, Database Servers, Email Servers, and Other Servers. " /></p>
+<p><strong>Organize your clients.</strong></p>
+<p>For clients, it is common to create Desktop and Laptop OUs. You may go a step further and create OUs for geographical areas. This approach enables each site’s support team to be delegated the rights to create and manage computer objects in the site for client <g>computers,</g> and to join computers to the domain by using those computer objects. You could also start with geographical locations and then subdivide into client types.</p>
+<p><img src="/static/3.1.2-2.png" alt="Visual representation of two possible Client OUs. The first image shows clients organized by Type (Laptop, Desktop) and then by Geography (London, Paris). The second image shows clients organization by Geography (London, Paris) and then by Type (Laptop, Desktop)." /></p>
+<table>
+<tbody>
+<tr>
+<td width="78" valign="top"><img src="/static/0.1.7.png"/>
+</td>
+<td width="552" valign="top">
+<p>You can use the <strong><g>redircmp</g></strong> command-line tool to change the default location for computers. For example, if you want to change the default location for computers to an OU named MyComputers, run the following command.</p>
+<p><strong><g>redircmp</g> “OU=MyComputers,DC=adatum,dc=com”</strong></p>
+</td>
+</tr>
+</tbody>
+</table>

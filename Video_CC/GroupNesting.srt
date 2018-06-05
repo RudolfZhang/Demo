@@ -1,0 +1,236 @@
+1
+00:00:00,510 --> 00:00:03,270
+In this demonstration we will look at
+
+2
+00:00:03,270 --> 00:00:06,809
+creating and nesting groups when it
+
+3
+00:00:06,809 --> 00:00:08,340
+comes to implementing group management
+
+4
+00:00:08,340 --> 00:00:11,670
+in the domain you need a strategy begin
+
+5
+00:00:11,670 --> 00:00:13,650
+by identifying the different identities
+
+6
+00:00:13,650 --> 00:00:16,500
+in the organization like sales managers
+
+7
+00:00:16,500 --> 00:00:19,110
+and auditors next collect those
+
+8
+00:00:19,110 --> 00:00:21,690
+identities into global groups based on
+
+9
+00:00:21,690 --> 00:00:23,760
+the members role for example a sales
+
+10
+00:00:23,760 --> 00:00:26,369
+global group and an auditors global
+
+11
+00:00:26,369 --> 00:00:29,369
+group now when you need to provide
+
+12
+00:00:29,369 --> 00:00:32,129
+access the domain resources consolidate
+
+13
+00:00:32,129 --> 00:00:34,260
+the global groups into a domain local
+
+14
+00:00:34,260 --> 00:00:37,079
+group for example you can add the sales
+
+15
+00:00:37,079 --> 00:00:40,079
+and auditors global groups into a single
+
+16
+00:00:40,079 --> 00:00:42,239
+domain local group called sales and
+
+17
+00:00:42,239 --> 00:00:46,289
+auditors lastly assign your domain local
+
+18
+00:00:46,289 --> 00:00:49,079
+group to the resources for example a
+
+19
+00:00:49,079 --> 00:00:51,659
+folder and then create permissions on
+
+20
+00:00:51,659 --> 00:00:55,350
+that resource this best practice for
+
+21
+00:00:55,350 --> 00:00:57,120
+nesting groups is known by the acronym
+
+22
+00:00:57,120 --> 00:01:02,039
+IGDLA let's look at how to implement
+
+23
+00:01:02,039 --> 00:01:04,830
+this practice here in Server Manager
+
+24
+00:01:04,830 --> 00:01:07,140
+under the Tools menu lets select the
+
+25
+00:01:07,140 --> 00:01:09,360
+Active Directory Administrative Center
+
+26
+00:01:09,360 --> 00:01:12,420
+and in the ADAC we can right-click the
+
+27
+00:01:12,420 --> 00:01:17,310
+domain and select new group now the
+
+28
+00:01:17,310 --> 00:01:19,020
+first group that we will create is
+
+29
+00:01:19,020 --> 00:01:21,270
+called auditors and it will be a
+
+30
+00:01:21,270 --> 00:01:24,210
+security group and the group scope will
+
+31
+00:01:24,210 --> 00:01:26,400
+be global now global groups are
+
+32
+00:01:26,400 --> 00:01:28,740
+primarily used to consolidate users who
+
+33
+00:01:28,740 --> 00:01:31,140
+have similar characteristics like
+
+34
+00:01:31,140 --> 00:01:33,620
+auditors
+
+35
+00:01:33,620 --> 00:01:37,040
+let's add another group this group will
+
+36
+00:01:37,040 --> 00:01:40,730
+be called sales and auditors and this
+
+37
+00:01:40,730 --> 00:01:42,680
+will be a security group and the group
+
+38
+00:01:42,680 --> 00:01:49,340
+scope will be domain local now let's add
+
+39
+00:01:49,340 --> 00:01:54,740
+for the members tab the sales group and
+
+40
+00:01:54,740 --> 00:01:56,960
+the auditors group we now have a group
+
+41
+00:01:56,960 --> 00:01:58,430
+that we could assign to protected
+
+42
+00:01:58,430 --> 00:02:00,860
+documents on a shared network resource
+
+43
+00:02:00,860 --> 00:02:05,900
+so you want to use domain local groups
+
+44
+00:02:05,900 --> 00:02:09,230
+to manage access to resources or to
+
+45
+00:02:09,230 --> 00:02:12,670
+assign management rights
+
+46
+00:02:13,300 --> 00:02:16,780
+now if you prefer you can use the
+
+47
+00:02:16,780 --> 00:02:18,940
+Windows PowerShell History to see the
+
+48
+00:02:18,940 --> 00:02:22,150
+commands that you could use for example
+
+49
+00:02:22,150 --> 00:02:24,610
+the New-ADGroup would create a
+
+50
+00:02:24,610 --> 00:02:27,580
+group scope of global for the auditors
+
+51
+00:02:27,580 --> 00:02:29,800
+group and then the second group we
+
+52
+00:02:29,800 --> 00:02:31,990
+created the group scope is domain local
+
+53
+00:02:31,990 --> 00:02:34,240
+and that's for your sales and auditors
+
+54
+00:02:34,240 --> 00:02:37,900
+group and then Set-ADGroup can be
+
+55
+00:02:37,900 --> 00:02:40,720
+used to add members to a group like we
+
+56
+00:02:40,720 --> 00:02:42,640
+did with the sales and auditor groups
+
+57
+00:02:42,640 --> 00:02:45,910
+your course does have labs on managing
+
+58
+00:02:45,910 --> 00:02:48,190
+group accounts so be sure to take a few
+
+59
+00:02:48,190 --> 00:02:51,270
+minutes and give those a try.
+

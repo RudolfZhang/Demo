@@ -1,0 +1,21 @@
+<p>GPOs are not applied simultaneously. Rather, they are applied in a logical order, and GPOs that are applied later in the process overwrite any conflicting policy settings that were applied earlier.</p>
+<p><img src="/static/4.2.4.png" alt="Visual representation (flow chart) of the five GPO precedence levels described in the content text. " /></p>
+<p><strong>The GPO processing order is sometimes referred to by the acronym LSDOU (Local, Site, Domain, OU).</strong></p>
+<ol>
+<li><strong>Local GPOs.</strong> Local GPOs are processed first. Computers that are running Windows operating systems already have a configured local Group Policy.</li>
+<li><strong>Site GPOs.</strong> Policies that are linked to sites are processed next.</li>
+<li><strong>Domain GPOs.</strong> Policies that are linked to the domain are processed next. There are often multiple polices at the domain level. These policies are processed in order of preference.</li>
+<li><strong>OU GPOs.</strong> Policies linked to OUs are processed next. These policies contain settings that are unique to the objects in that OU. For example, the Sales users might have special required settings. You can link a policy to the Sales OU to deliver those settings.</li>
+<li><strong>Child OU policies.</strong> Any policies that are linked to child OUs are processed last.</li>
+</ol>
+<table>
+<tbody>
+<tr>
+<td width="78" valign="top"><img src="/static/0.1.7.png"/>
+</td>
+<td width="552" valign="top">
+<p>AD DS objects receive the cumulative effect of all polices in their processing order. In the case of a conflict between settings, the last policy applied takes effect. For example, a domain-level policy might restrict access to registry editing tools, but you could configure an OU-level policy and link it to the IT OU to reverse that policy. Because the OU-level policy is applied later in the process, access to registry tools would be available.</p>
+</td>
+</tr>
+</tbody>
+</table>

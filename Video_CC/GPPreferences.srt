@@ -1,0 +1,268 @@
+1
+00:00:00,000 --> 00:00:02,669
+In this demonstration we will look at
+
+2
+00:00:02,669 --> 00:00:06,299
+configuring Group Policy preferences
+
+3
+00:00:06,299 --> 00:00:08,760
+now we'll start in Server Manager under
+
+4
+00:00:08,760 --> 00:00:11,040
+the Tools menu with Group Policy
+
+5
+00:00:11,040 --> 00:00:18,000
+management and within group policy
+
+6
+00:00:18,000 --> 00:00:20,910
+management we will expand the forest and
+
+7
+00:00:20,910 --> 00:00:23,039
+the domain and then edit the Default
+
+8
+00:00:23,039 --> 00:00:28,349
+Domain Policy for adatam.com now in the
+
+9
+00:00:28,349 --> 00:00:30,119
+Group Policy Management Editor both
+
+10
+00:00:30,119 --> 00:00:32,250
+Computer Configuration and User
+
+11
+00:00:32,250 --> 00:00:35,309
+Configuration have Preferences and
+
+12
+00:00:35,309 --> 00:00:37,079
+within Preferences there are Windows
+
+13
+00:00:37,079 --> 00:00:39,480
+Settings and Control Panel Settings
+
+14
+00:00:39,480 --> 00:00:41,700
+let's take a look at some of the things
+
+15
+00:00:41,700 --> 00:00:43,050
+you can do with the Windows Setting
+
+16
+00:00:43,050 --> 00:00:46,020
+Preferences you can map a network share
+
+17
+00:00:46,020 --> 00:00:48,870
+or folder you can limit registry
+
+18
+00:00:48,870 --> 00:00:51,989
+options or settings you can create a
+
+19
+00:00:51,989 --> 00:00:54,660
+shortcut to the desktop file system or
+
+20
+00:00:54,660 --> 00:00:58,289
+URL and you can create a folder or set
+
+21
+00:00:58,289 --> 00:01:00,449
+of nested folders and that's what we'll
+
+22
+00:01:00,449 --> 00:01:03,390
+do we'll go over to Windows Settings and
+
+23
+00:01:03,390 --> 00:01:05,670
+on Folders right-click and select New
+
+24
+00:01:05,670 --> 00:01:09,659
+Folder and on the drop-down on this page
+
+25
+00:01:09,659 --> 00:01:11,850
+we're going to select as our action
+
+26
+00:01:11,850 --> 00:01:15,150
+Create and this will be a folder on the
+
+27
+00:01:15,150 --> 00:01:17,909
+c drive for the Research group we could
+
+28
+00:01:17,909 --> 00:01:19,740
+do something fancier but we'll keep it
+
+29
+00:01:19,740 --> 00:01:20,520
+simple
+
+30
+00:01:20,520 --> 00:01:22,890
+now on the Common tab it's important to
+
+31
+00:01:22,890 --> 00:01:24,420
+remember that preferences are always
+
+32
+00:01:24,420 --> 00:01:26,640
+reapplied but there is an option to
+
+33
+00:01:26,640 --> 00:01:29,790
+change that one thing that unique about
+
+34
+00:01:29,790 --> 00:01:32,880
+Preferences is Item Level Targeting item
+
+35
+00:01:32,880 --> 00:01:34,860
+level targeting lets you specify exactly
+
+36
+00:01:34,860 --> 00:01:38,640
+where to apply the preference so you can
+
+37
+00:01:38,640 --> 00:01:42,240
+apply it to particular computers or an
+
+38
+00:01:42,240 --> 00:01:45,570
+IP address range an organizational unit
+
+39
+00:01:45,570 --> 00:01:49,020
+a user you can even specify the
+
+40
+00:01:49,020 --> 00:01:50,970
+operating system that you want to apply
+
+41
+00:01:50,970 --> 00:01:53,250
+this to now we're going to keep it
+
+42
+00:01:53,250 --> 00:01:55,170
+simple and choose the Research
+
+43
+00:01:55,170 --> 00:01:57,810
+organizational unit but know that you
+
+44
+00:01:57,810 --> 00:02:00,180
+can combine different criteria to target
+
+45
+00:02:00,180 --> 00:02:03,509
+a very specific set of items once the
+
+46
+00:02:03,509 --> 00:02:05,850
+preference is created we apply our
+
+47
+00:02:05,850 --> 00:02:09,479
+changes and then click OK make sure the
+
+48
+00:02:09,479 --> 00:02:12,569
+preferences were created and then
+
+49
+00:02:12,569 --> 00:02:14,400
+if we want to push these changes out we
+
+50
+00:02:14,400 --> 00:02:19,920
+can use GPupdate  / force just
+
+51
+00:02:19,920 --> 00:02:22,980
+like you do with group policy and it'll
+
+52
+00:02:22,980 --> 00:02:24,599
+just take a minute or so before it
+
+53
+00:02:24,599 --> 00:02:27,389
+reports back that this is completed
+
+54
+00:02:27,389 --> 00:02:28,650
+successfully
+
+55
+00:02:28,650 --> 00:02:33,420
+once that happens we're ready to test so
+
+56
+00:02:33,420 --> 00:02:35,639
+I'll switch over to the client computer
+
+57
+00:02:35,639 --> 00:02:39,989
+and I'll log in as Rose Rose is a member
+
+58
+00:02:39,989 --> 00:02:42,959
+of the Research group so after she's
+
+59
+00:02:42,959 --> 00:02:45,209
+logged in we should be able to navigate
+
+60
+00:02:45,209 --> 00:02:48,000
+to the c drive and there should be a
+
+61
+00:02:48,000 --> 00:02:51,000
+research folder that has been created in
+
+62
+00:02:51,000 --> 00:02:53,010
+summary your preferences are different
+
+63
+00:02:53,010 --> 00:02:55,650
+from policies they are not enforced and
+
+64
+00:02:55,650 --> 00:02:58,650
+they provide item level targeting now
+
+65
+00:02:58,650 --> 00:03:00,569
+your course does have a lab on Group
+
+66
+00:03:00,569 --> 00:03:03,150
+Policy preferences so please take a few
+
+67
+00:03:03,150 --> 00:03:06,349
+minutes to give it a try.
+

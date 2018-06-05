@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>You have identified a problem with a broken channel on LON-CL1. Your first step on the Domain Controller is to right-click LON-CL1 and</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">delete the account</choice>
+      <choice correct="False">disable the account</choice>
+      <choice correct="False">disjoin the account</choice>
+      <choice correct="True">reset the account</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;Reset the account&lt;/b&gt;. When the secure channel fails, you must reset the computer account.   </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>You are creating a new user using Windows PowerShell. You have used New-ADUser and Set-ADAccountPassword. Which command should you use next?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Enable-ADAccount</choice>
+      <choice correct="False">Enable-ADObject</choice>
+      <choice correct="False">Set-ADAccount</choice>
+      <choice correct="False">Set-ADUser</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;Enable-ADAccount&lt;/b&gt;. Without this command the user account will be disabled.  </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

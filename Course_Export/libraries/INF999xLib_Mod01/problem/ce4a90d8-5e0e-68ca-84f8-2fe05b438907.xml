@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Brad is a member of several groups. Which of following can be used to view his overall password permissions?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Additive group permissions</choice>
+      <choice correct="False">Administrator account permissions</choice>
+      <choice correct="False">Fine-grained password settings</choice>
+      <choice correct="True">Resultant password permissions</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;Resultant password permissions&lt;/b&gt;. You can use the ADAC to view a user’s resultant password permissions and ensure they have the correct permissions.   </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

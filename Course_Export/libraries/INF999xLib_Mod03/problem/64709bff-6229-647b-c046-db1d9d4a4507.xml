@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>A computer changes its password approximately every</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">other day</choice>
+      <choice correct="True">every 30 days</choice>
+      <choice correct="False">every 45 days</choice>
+      <choice correct="False">every 60 days</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt; every 30 days &lt;/b&gt;. A computer changes its password in the domain approximately every 30 days.    </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

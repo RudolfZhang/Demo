@@ -1,0 +1,19 @@
+<p><strong>You can change the refresh interval by configuring a Group Policy setting</strong></p>
+<ul>
+<li>For <em>computer settings</em>, the refresh interval setting, Set Group Policy refresh interval for computers, is found in the Computer Configuration\Policies\Administrative Templates\System\Group Policy node.</li>
+<li>For <em>user settings</em>, the refresh interval, Set Group Policy refresh interval for users, is found at the corresponding settings under User Configuration.</li>
+<li>While you can change the refresh interval for most settings, an exception is the security settings. The security settings section of the Group Policy is refreshed at least every 16 hours, regardless of the interval that you set for the refresh interval.</li>
+</ul>
+<p><strong>You can refresh the Group Policy manually</strong></p>
+<p>Most Administrators use <strong><g>gpupdate</g></strong> <strong>/force</strong> to refresh and deliver any new Group Policy configurations. However, there is a Windows PowerShell <strong>Invoke-GPUpdate</strong> cmdlet, which performs the same function.</p>
+<table>
+<tbody>
+<tr>
+<td width="78" valign="top"><img src="/static/0.1.7.png"/>
+</td>
+<td width="552" valign="top">
+<p><a href="https://technet.microsoft.com/en-us/windows-server-docs/management/group-policy/manage/force-a-remote-group-policy-refresh-gpupdate">Remote Policy Refresh</a> is a feature that allows administrators to use the GPMC to target an OU and force Group Policy refresh on all of its computers and their currently signed-in users. To force a Group Policy refresh, right-click any OU, and then click Group Policy Update. The update occurs within 10 minutes.</p>
+</td>
+</tr>
+</tbody>
+</table>

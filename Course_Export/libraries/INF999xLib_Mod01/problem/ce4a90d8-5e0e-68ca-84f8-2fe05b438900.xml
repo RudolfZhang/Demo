@@ -1,0 +1,20 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>
+    </p>
+    <p>Which PowerShell command can be used to create a new user?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Enable-ADAccount</choice>
+      <choice correct="False">New-ADAccount</choice>
+      <choice correct="True">New-ADUser</choice>
+      <choice correct="False">Set-ADUser</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;New-ADUser&lt;/b&gt;. The New-ADUser command can be used to create a new user. For example, New-ADUser -Name "Ed Meadows".   </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

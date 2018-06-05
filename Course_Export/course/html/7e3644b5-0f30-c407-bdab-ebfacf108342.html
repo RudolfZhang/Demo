@@ -1,0 +1,25 @@
+<p>The GPO administrative templates have two XML files types</p>
+<ul>
+<li><strong>ADMX</strong> files that specify the registry setting to change. AMDX files are language-neutral.</li>
+<li><strong>ADML</strong> files that generate the user interface to configure the Administrative Templates policy settings in the Group Policy Management Editor window. ADML files are language-specific.</li>
+</ul>
+<p>ADMX and ADML files are stored in the %SystemRoot%\PolicyDefinitions folder or in the central store. You can also create your own custom administrative templates in XML format. Administrative templates that control Microsoft Office products (such as Office Word, Office <g>Excel</g> and Office PowerPoint) are available from the Microsoft website.</p>
+<p><img src="/static/4.4.4.png" alt="Screenshot showing the Default Domain Policy. The Administrative templates node is highlighted. The central store is not being used." /></p>
+<p><strong>Administrative templates have the following characteristics:</strong></p>
+<ul>
+<li>They are organized into subfolders that contain configuration options for specific areas of the environment, such as network, system, and Windows components.</li>
+<li>The settings in the Computer section edit the HKEY_LOCAL_MACHINE registry hive, and settings in the User section edit the HKEY_CURRENT_USER registry hive.</li>
+<li>Some settings exist for both User and Computer. For example, there is a setting to prevent Windows Messenger from running in both the User and the Computer templates. In <g>case</g> of conflicting settings, the Computer setting prevails.</li>
+<li>Some settings are available only to certain versions of Windows operating systems. Double-clicking the settings displays the supported versions for that setting. The system ignores any setting that an older Windows operating system cannot process.</li>
+</ul>
+<table>
+<tbody>
+<tr>
+<td width="78"><img src="/static/0.1.5.png"/>
+</td>
+<td width="534">
+<p>There is a practical exercise on <strong>Central Store</strong>.</p>
+</td>
+</tr>
+</tbody>
+</table>

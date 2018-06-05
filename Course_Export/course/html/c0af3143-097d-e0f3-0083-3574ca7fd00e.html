@@ -1,0 +1,23 @@
+<p><strong>Computers have accounts too.</strong></p>
+<p>Every member computer in an AD DS domain maintains a <a href="https://technet.microsoft.com/en-us/library/cc771682.aspx">computer account</a> with a user name (sAMAccountName) and password, just like a user account does. The computer stores its password in the form of a local security authority (LSA) <g>secret,</g> and changes its password in the domain approximately every 30 days. Each domain-joined computer has an account in AD DS. Computer accounts are used in the same ways that user accounts are used for users. Each computer has a Security Identification (SID) and attributes. Also, when you create a domain, a <strong>Computers</strong> container is created.</p>
+<table>
+<tbody>
+<tr>
+<td width="336" valign="top"><img src="/static/3.1.1.png"alt="Screenshot of the adatum.com domain showing the Computer container."/></td>
+<td width="287">
+<p>By now you know that a <em>container</em> is different from an <em>OU</em>. You cannot create an OU within a container, so you cannot subdivide the Computers container. You also cannot link a group policy object (GPO) to a container. So, you cannot create security policies for the Computers container. For these reasons, as a best practice, we recommend that instead of using the Computers container, you create custom OUs to host your computer accounts.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td width="78"><img src="/static/0.1.5.png"/>
+</td>
+<td width="534">
+<p>There is a practical exercise on <strong>Computer Accounts</strong>.</p>
+</td>
+</tr>
+</tbody>
+</table>

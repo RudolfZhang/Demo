@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>To fix a broken secure channel what should you do?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Disable the computer account and rejoin the computer to the domain.</choice>
+      <choice correct="False">Delete the existing computer account and create a new computer account.</choice>
+      <choice correct="False">Disjoin the computer account and rejoin the computer to the domain.</choice>
+      <choice correct="True">Reset the computer account and rejoin the computer to the domain.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;Reset the computer account&lt;/b&gt;. When the secure channel fails, you should reset the computer account. By default, the netdom reset and Test-ComputerSecureChannel solutions will try to reset the password at the computer and domain level. If successful, a reboot is not required. If not, a reboot is required.  </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

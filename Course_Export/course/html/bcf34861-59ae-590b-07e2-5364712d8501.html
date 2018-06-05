@@ -1,0 +1,27 @@
+<p><strong>Group Policy versions determine what needs to be refreshed.</strong></p>
+<p>By default, during a Group Policy refresh, the Group Policy client-side extensions only apply GPO settings if the GPO has been updated. The Group Policy client can identify an updated GPO by its version number. A GPO has a version number that increments when a GPO settings change occurs. The GPO version number is stored as an attribute of the Group Policy container. Additionally, it is stored in a text file named GPT.ini, in the Group Policy Template folder. The Group Policy client is aware of the version number of every GPO that it has applied previously. <g>If,</g> during Group Policy refresh, the Group Policy client establishes that the version number of the Group Policy container has changed, it notifies the client-side extensions that the GPO has been updated.</p>
+<p><img src="/static/4.1.5.png" alt="Visual representation of the process described in the content text. The group policy template and group policy container are shown. The GPO version number is stored in both places. " /></p>
+<table>
+<tbody>
+<tr>
+<td width="66" valign="top">
+<p><img src="/static/0.1.7.png" alt="" /></p>
+</td>
+<td width="558">
+<p><strong>GPO Versioning</strong>. Not all GPO settings apply to all versions of Windows Server and Windows operating systems. Each new version introduces new settings and capabilities that only apply to that specific version. If a computer has a Group Policy setting applied that it cannot process, it simply ignores the setting.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td width="55" valign="top">
+<p><img src="/static/3.2.4-2.png" alt="Help" /></p>
+</td>
+<td width="568">
+<p><a href="https://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/WIN-B328#fbid">Group Policy: Tips, Tricks, and Notes from the field</a> - This TechNet 2014 video covers Group Policy best practices and troubleshooting tips.</p>
+</td>
+</tr>
+</tbody>
+</table>

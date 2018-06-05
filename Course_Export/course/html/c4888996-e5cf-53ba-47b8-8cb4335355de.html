@@ -1,0 +1,16 @@
+<p><strong>Avoid the default groups that do not have any members.</strong></p>
+<p>You should try to avoid adding users to the groups that do not have members by default (Account Operators, Backup Operators, Server Operators, and Print Operators). Instead, create custom groups to which you assign permissions and user rights that achieve your business and administrative requirements. Also, carefully manage the default groups that provide administrative privileges because they typically have broader privileges than are necessary for most delegated environments, and because they often apply protection to their members. </p>
+<p><strong>Use the principle of least privilege.</strong></p>
+<p><strong>Example 1:</strong> If Scott Mitchell should be able to perform backup operations on a domain controller, but should not be able to perform restore operations that could lead to database rollback or corruption, and should not be able to shut down a domain controller, do not put Scott in the Backup Operators group. Instead, create a group and assign it only the Backup Files And Directories user right, and then add Scott as a member.</p>
+<p><strong>Example 2</strong>: If you examine the capabilities of the Account Operators group, you can see that members of this group have very broad rights—they can even sign in locally to a domain controller. In very small networks, such rights may be assigned to one or two individuals who are typically domain administrators anyway. However, in large enterprises, the rights and permissions granted to Account Operators are usually far too broad.</p>
+<table>
+<tbody>
+<tr>
+<td width="78"><img src="/static/0.1.5.png"/>
+</td>
+<td width="534">
+<p>There are practical exercises on <strong>Group Nesting</strong> and <strong>Group Inheritance</strong>.</p>
+</td>
+</tr>
+</tbody>
+</table>

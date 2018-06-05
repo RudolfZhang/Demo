@@ -1,0 +1,25 @@
+<p><strong>Certain groups have computer permissions.</strong></p>
+<p>It is important that you control who will be able to create and delete computers in the domain. By default, the <strong>Enterprise Admins</strong>, <strong>Domain Admins</strong>, <strong>Administrators</strong>, and <strong>Account Operators</strong> groups have permissions to perform some management of computer objects.</p>
+<p><strong>Delegate access to a computer group with fewer members.</strong></p>
+<p>We recommend you delegate the <strong>Computer Objects</strong> permission to a smaller group of administrators or support personnel. For example, you might create a group containing just the desktop support team and the file server administrators. Then you could give permissions to allow your desktop support team to create computer objects in a Clients OU, and your file server administrators to create computer objects in a File Servers OU.</p>
+<table>
+<tbody>
+<tr>
+<td width="306"><img src="/static/3.1.4.png" alt="Screenshot of the Delegation of Control wizard showing the Computer Objects permissions including Create and Delete. "/></td>
+<td width="318">
+<p>To delegate permissions, you can use the <strong>Delegate Control Wizard</strong>. Computer objects permissions include <strong>Create selected objects in the folder</strong> and <strong>Delete selected objects</strong>. If you want to allow a delegated administrator to move computer accounts, consider that the administrator must have the appropriate permissions both in the source container (where the computer currently exists) and in the target container (where the computer will be moved to).</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td width="78"><img src="/static/0.1.5.png"/>
+</td>
+<td width="534">
+<p>There is a practical exercise on <strong>Computer Delegation</strong>.</p>
+</td>
+</tr>
+</tbody>
+</table>

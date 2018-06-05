@@ -1,0 +1,18 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>You are creating a new user but the password (Password) keeps throwing an error. What is likely the problem?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">You have to create the user before assigning the password.</choice>
+      <choice correct="True">The password does not meet complexity requirements.</choice>
+      <choice correct="False">You do not have permission to create a user.</choice>
+      <choice correct="False">The user already has a password.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;The password does not meet complexity requirements&lt;/b&gt;. Even when you are creating a new user where the password will be changed, the password must meet complexity requirements.  </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

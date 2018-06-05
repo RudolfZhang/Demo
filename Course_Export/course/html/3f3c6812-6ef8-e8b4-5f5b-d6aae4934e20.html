@@ -1,0 +1,42 @@
+<p><strong>A GPO has a template and a container.</strong></p>
+<p>A GPO is made up of two components a <em>Group Policy Template</em> and a <em>Group Policy Container</em>. These components work together to define the GPO and keep it updated.</p>
+<table>
+<tbody>
+<tr>
+<td width="214" valign="top">
+</td>
+<td width="214" valign="top">
+<p><strong>Description</strong></p>
+</td>
+<td width="214" valign="top">
+<p><strong>Location</strong></p>
+</td>
+</tr>
+<tr>
+<td width="214" valign="top">
+<p><strong>Group Policy Template</strong></p>
+</td>
+<td width="214" valign="top">
+<p>Contains Group Policy settings</p>
+</td>
+<td width="214" valign="top">
+<p>Stored in shared SYSVOL folder</p>
+</td>
+</tr>
+<tr>
+<td width="214" valign="top">
+<p><strong>Group Policy Container</strong></p>
+</td>
+<td width="214" valign="top">
+<p>Stores version information</p>
+</td>
+<td width="214" valign="top">
+<p>Stored in AD DS directory</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Group Policy Templates are the settings.</strong></p>
+<p>Group Policy templates are the actual collection of settings that you can modify. The Group Policy template includes files that are stored in the SYSVOL of each domain controller. SYSVOL is in the %SystemRoot% \SYSVOL\Domain\Policies\GPOGUID path, where GPOGUID is the globally unique identifier (GUID) of the Group Policy container. When you create a GPO, a new Group Policy template is created in the SYSVOL folder.</p>
+<p><strong>Group Policy Containers are the objects.</strong></p>
+<p>The Group Policy container is an Active Directory object that is stored in the Active Directory database. Each Group Policy container includes a GUID attribute that identifies the object uniquely within AD DS. The Group Policy container defines basic attributes of the GPO, such as links and version numbers, but it does not contain any of the settings. When you create a GPO, a new Group Policy container is created in AD DS.</p>

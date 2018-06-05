@@ -1,0 +1,247 @@
+1
+00:00:00,004 --> 00:00:01,006
+- [Voiceover] When using
+the word, computer,
+
+2
+00:00:01,006 --> 00:00:03,003
+in the context of this training course,
+
+3
+00:00:03,003 --> 00:00:04,008
+I'm referring to the entire package
+
+4
+00:00:04,008 --> 00:00:07,008
+of everything you need to
+actually accomplish tasks.
+
+5
+00:00:07,008 --> 00:00:09,003
+So people refer to a computer as just
+
+6
+00:00:09,003 --> 00:00:11,005
+the actual unit housing
+the main components
+
+7
+00:00:11,005 --> 00:00:14,005
+of the hard drive,
+processor, memory and so on.
+
+8
+00:00:14,005 --> 00:00:15,007
+But to use a computer, you also need
+
+9
+00:00:15,007 --> 00:00:18,001
+a monitor, so you can
+see what you're doing.
+
+10
+00:00:18,001 --> 00:00:19,007
+Some computers like notebook computers
+
+11
+00:00:19,007 --> 00:00:22,006
+or all-in-one computers
+have built-in monitors
+
+12
+00:00:22,006 --> 00:00:24,008
+but it's important to
+not confuse the monitor
+
+13
+00:00:24,008 --> 00:00:26,003
+with the computer itself.
+
+14
+00:00:26,003 --> 00:00:28,001
+The monitor is also called the display
+
+15
+00:00:28,001 --> 00:00:30,002
+and it's doesn't do any
+of the work or processing.
+
+16
+00:00:30,002 --> 00:00:32,005
+It simply displays the
+computer's interface
+
+17
+00:00:32,005 --> 00:00:34,001
+which is still an essential component
+
+18
+00:00:34,001 --> 00:00:35,007
+of the entire system.
+
+19
+00:00:35,007 --> 00:00:37,000
+You also need a keyboard and a mouse
+
+20
+00:00:37,000 --> 00:00:38,003
+so you can enter text and commands
+
+21
+00:00:38,003 --> 00:00:39,008
+and control the computer.
+
+22
+00:00:39,008 --> 00:00:41,004
+You often need speakers or headphones
+
+23
+00:00:41,004 --> 00:00:43,005
+so you can hear the sounds
+your computer makes.
+
+24
+00:00:43,005 --> 00:00:45,002
+Some computers have built-in speakers
+
+25
+00:00:45,002 --> 00:00:46,004
+while others don't.
+
+26
+00:00:46,004 --> 00:00:48,003
+Computers also need to
+have an operating system,
+
+27
+00:00:48,003 --> 00:00:49,008
+which is the software that manages
+
+28
+00:00:49,008 --> 00:00:52,001
+the operation of the entire system.
+
+29
+00:00:52,001 --> 00:00:54,008
+We'll talk more about operating
+systems a little bit later.
+
+30
+00:00:54,008 --> 00:00:55,009
+And to use a computer you'll
+
+31
+00:00:55,009 --> 00:00:57,009
+also need applications,
+which are the programs
+
+32
+00:00:57,009 --> 00:01:00,006
+that run on your computer
+like word processsing,
+
+33
+00:01:00,006 --> 00:01:03,003
+spreadsheet or photo editing applications.
+
+34
+00:01:03,003 --> 00:01:05,002
+Many computers come with built-in software
+
+35
+00:01:05,002 --> 00:01:06,009
+and you can purchase and install thousands
+
+36
+00:01:06,009 --> 00:01:10,001
+of other software applications
+you might want or need.
+
+37
+00:01:10,001 --> 00:01:11,004
+You may also need additional hardware
+
+38
+00:01:11,004 --> 00:01:13,004
+to have your computer perform other tasks.
+
+39
+00:01:13,004 --> 00:01:14,009
+For example, you'll need a printer,
+
+40
+00:01:14,009 --> 00:01:17,006
+in order to have paper
+copies of your documents.
+
+41
+00:01:17,006 --> 00:01:19,002
+Or a scanner to create electronic versions
+
+42
+00:01:19,002 --> 00:01:21,000
+of your paper documents.
+
+43
+00:01:21,000 --> 00:01:22,003
+These days, your printer and scanner, may,
+
+44
+00:01:22,003 --> 00:01:24,000
+in fact, be the same device though.
+
+45
+00:01:24,000 --> 00:01:25,003
+And if you want to get online,
+
+46
+00:01:25,003 --> 00:01:27,001
+you'll also need Web-browsing software,
+
+47
+00:01:27,001 --> 00:01:29,008
+a modem and to subscribe
+to an Internet service
+
+48
+00:01:29,008 --> 00:01:32,002
+if you want to get on the
+Web with your computer.
+
+49
+00:01:32,002 --> 00:01:33,004
+So, at the very least, you need the
+
+50
+00:01:33,004 --> 00:01:35,008
+computer unit itself, a monitor,
+
+51
+00:01:35,008 --> 00:01:37,005
+an operating system and the keyboard
+
+52
+00:01:37,005 --> 00:01:39,008
+and mouse to have a computer system.
+
+53
+00:01:39,008 --> 00:01:41,003
+But all of these things and more make up
+
+54
+00:01:41,003 --> 00:01:42,008
+your computer system and generally,
+
+55
+00:01:42,008 --> 00:01:44,005
+when we talk about computers,
+
+56
+00:01:44,005 --> 00:01:46,001
+we're talking about any configuration
+
+57
+00:01:46,001 --> 00:01:48,007
+that involves these basic
+and essential components.
+

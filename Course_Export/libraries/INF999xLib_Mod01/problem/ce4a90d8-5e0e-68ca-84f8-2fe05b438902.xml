@@ -1,0 +1,20 @@
+<problem display_name="Multiple choice" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>
+    </p>
+    <p>Which setting can be used to set the number of failed logon tries that are allowed before a user account is locked out?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Account lockout duration</choice>
+      <choice correct="True">Account lockout threshold</choice>
+      <choice correct="False">Complexity requirements</choice>
+      <choice correct="False">Reset account lockout counter</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p />
+        <p>&lt;b&gt;Account lockout threshold&lt;/b&gt;. The Account lockout threshold setting determines the number of failed logon tries that are allowed before a user account is locked out. Set this value high enough to allow for mistyped passwords, but low enough to minimize the chances of a successful brute force attack on a password.  </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>
