@@ -4,6 +4,12 @@ In  (AD DS), all users who require access to network resources must have a *use
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/cpnjDsZNoU8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+<video width="320" height="240" controls>
+  <source src="http://77-88.tv/wp-content/uploads/mvp-file-dir/The%20Biggest%20Story%20Video%20Download.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video> 
+
 **With a user account, you can:**
 
 *   Allow or deny users permission to sign in to a computer based on their user account identity. 14：54
