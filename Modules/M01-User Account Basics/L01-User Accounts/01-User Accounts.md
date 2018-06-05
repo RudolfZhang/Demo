@@ -6,7 +6,7 @@ In  (AD DS), all users who require access to network resources must have a *use
 
 <video width="320" height="240" controls>
   <source src="http://77-88.tv/wp-content/uploads/mvp-file-dir/The%20Biggest%20Story%20Video%20Download.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
+
 Your browser does not support the video tag.
 </video> 
 
